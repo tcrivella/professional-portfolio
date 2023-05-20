@@ -1,0 +1,85 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #F8EDE3
+}
+
+h2 {
+    color: #55455c;
+}
+
+p {
+    color: #7D6E83;
+}
+
+form {
+    color: #7D6E83;    
+}
+
+a {
+    color: #55455c;
+
+}
+
+.gridLayout {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.a {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    background-color: #DFD3C3;
+    text-align: center;
+    line-height: 3;
+    color: #55455c;
+}
+
+.b {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    background-color: #D0B8A8;
+    text-align: center;
+    line-height: 6;
+    color: #55455c;   
+}
+
+.c {
+    grid-column: 1 / 1;
+    grid-row: 2 / 0;
+    background-color: #D0B8A8;
+    text-align: center;
+    line-height: 6;
+    color: #55455c;   
+}
+
+.d {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    background-color: #DFD3C3;
+    text-align: center;
+    line-height: 6;
+    color: #55455c;   
+}
+
+.contactMe {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.myWork {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.aboutMe {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
